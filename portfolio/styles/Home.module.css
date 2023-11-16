@@ -1,46 +1,124 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Bold.ttf");
+  src: url('./fonts/Poppins-Regular.ttf');
+  src: url('./fonts/Poppins-Medium.ttf');
+  src: url('./fonts/Poppins-Black.ttf')
+}
+
 .wrapper {
   width: 100%;
-  height: 100vh;
+  height: 200vh;
   background-color: black;
 }
 
-.contacts {
+.about {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #17171A;
   border-radius: 24px;
   margin: auto;
   padding: 24px;
+  width: 80%;
+
 }
 
-.info {
-  color: white;
+.info h1 {
+  color: #F5F8FF;
   font: 900 24px Ambit;
+}
+
+.info p {
+  color: #F5F8FF;
+  font: 600 12px Poppins;
+  font-style: normal;
+  line-height: 160%;
+}
+
+.about .img {
+  background-image: url('./assets/5024509.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+  margin-right: 20%;
 }
 
 .work {
-  display: block;
-  
-  justify-content:space-between;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
   background-color: #17171A;
   border-radius: 24px;
   margin: auto;
+  width: 80%;
+
+}
+
+.work h1 {
+  color: #F5F8FF;
+  font: 500 16px Poppins;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.work h3 {
+  color: #F5F8FF;
+  font: 500 10px Poppins;
+  font-style: normal;
+  line-height: 20px;
 }
 
 .work p {
-  color: white;
-  font: 900 24px Ambit;
+  color: #F5F8FF;
+  font: 300 10px Poppins;
+  font-style: normal;
+  line-height: 20px;
 }
 
 .skills {
-  display: flex;
-  justify-content: space-between;
-  background-color: #17171A;
-  border-radius: 24px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+ 
   margin: auto;
+  width: 80%;
 }
 
-.skills p {
-  color: white;
-  font: 900 24px Ambit;
+.skills .text {
+  display: flex;
+  justify-content: space-around;
+  background-color: #17171A;
+  border-radius: 24px;
+  margin:  20px 0;
+}
+
+.skills .text p {
+  color: #F5F8FF;
+  font: 400 12px Poppins;
+  font-style: normal;
+  line-height: 190%;
+}
+
+.skills .uny {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills .uny .educ {
+  background-color: #17171A;
+  border-radius: 24px;
+  width: 500px;
+}
+
+.skills .uny .lang {
+  background-color: #17171A;
+  border-radius: 24px;
+  width: 500px;
+}
+
+.skills .uny p{
+  color: #F5F8FF;
+  font: 400 12px Poppins;
+  font-style: normal;
+  line-height: 190%;
 }

@@ -4,30 +4,30 @@ export default function Home() {
   return (
     <div className={style.wrapper}>
       <div className={style.about}>
-        <div className={style.contacts}>
           <div className={style.img}></div>
           <div className={style.info}>
             <h1>Сеглин Михаил</h1>
-            <p>Республика:Беларусь</p>
+            <p>РеспубликаБеларусь</p>
             <p>Телефон:+375333942423</p>
             <p>E-mail:misha_hp@tut.by</p>
-          </div>
         </div>
       </div>
+      <h1>Work Experience</h1>
       <div className={style.work}>
         <div className={style.one}>
           <h1>Инженер-программист</h1>
-          <p>ОАО "Беларуськалий"</p>
-          <p>Август 2023 - настоящее время</p>
+          <h3>ОАО "Беларуськалий"</h3>
+          <h3>Август 2023 - настоящее время</h3>
           <p>ыпоыкщжо</p>
         </div>
         <div className={style.two}>
           <h1>Инженер-электроник</h1>
-          <p>ОАО "Беларуськалий"</p>
-          <p>Сентябрь 2018 - Июль 2023</p>
+          <h3>ОАО "Беларуськалий"</h3>
+          <h3>Сентябрь 2018 - Июль 2023</h3>
           <p>впукпукпа</p>
         </div>
       </div>
+      <h1>Skills</h1>
       <div className={style.skills}>
         <div className={style.text}>
           <div className={style.block1}>
