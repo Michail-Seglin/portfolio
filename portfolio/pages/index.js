@@ -1,18 +1,18 @@
 import style from '../styles/Home.module.css';
-// import '../styles/globals.css'
+import '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={style.wrapper}>
       <div className={style.about}>
-          <div className={style.img}></div>
-          <div className={style.info}>
-            <h1>Сеглин Михаил</h1>
-            <p>РеспубликаБеларусь</p>
-            <p>Телефон:+375333942423</p>
-            <p>E-mail:misha_hp@tut.by</p>
+        <div className={style.img}></div>
+        <div className={style.info}>
+          <h1>Сеглин Михаил</h1>
+          <p>РеспубликаБеларусь</p>
+          <p>Телефон:+375333942423</p>
+          <p>E-mail:misha_hp@tut.by</p>
         </div>
       </div>
-      <h1>Work Experience</h1>
+      <h2>Work Experience</h2>
       <div className={style.work}>
         <div className={style.one}>
           <h1>Инженер-программист</h1>
@@ -27,7 +27,7 @@ export default function Home() {
           <p>впукпукпа</p>
         </div>
       </div>
-      <h1>Skills</h1>
+      <h2>Skills</h2>
       <div className={style.skills}>
         <div className={style.text}>
           <div className={style.block1}>
@@ -45,6 +45,7 @@ export default function Home() {
         </div>
         <div className={style.uny}>
           <div className={style.educ}>
+            <div className={style.img}></div>
             <p>Белорусский национальный технический университет</p>
           </div>
           <div className={style.lang}>
